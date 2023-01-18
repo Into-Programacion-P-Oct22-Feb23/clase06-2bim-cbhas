@@ -10,16 +10,21 @@ public class Ejemplo01 {
         Scanner entrada = new Scanner(System.in);
 
         int limite;
-        System.out.println("Ingrese el límite:");
+        System.out.println("Ingrese el límite(debe ser positivo):");
         limite = entrada.nextInt();
 
-        int valorA = obtenerNumero(limite);
-        int valorB = obtenerNumero(limite);
-        int suma = obtnerSuma(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\n",
-                valorA,
-                valorB,
-                suma);
+        if (limite > 0) {
+            int valorA = obtenerNumero(limite);
+            int valorB = obtenerNumero(limite);
+            int suma = obtnerSuma(valorA, valorB);
+            System.out.printf("La suma de %d + %d es igual a: %d\n",
+                    valorA,
+                    valorB,
+                    suma);
+
+        } else {
+            System.out.println("El número debe ser positivo");
+        }
     }
 
     public static int obtenerNumero(int limite) {
