@@ -15,7 +15,6 @@ public class Ejemplo01 {
 
         int valorA = obtenerNumero(limite);
         int valorB = obtenerNumero(limite);
-        int valorC = obtenerNumero(limite);
         int suma = obtnerSuma(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\n",
                 valorA,
