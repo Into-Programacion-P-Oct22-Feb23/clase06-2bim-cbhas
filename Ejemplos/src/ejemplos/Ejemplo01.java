@@ -23,7 +23,7 @@ public class Ejemplo01 {
                     suma);
 
         } else {
-            System.out.println("El número debe ser positivo");
+            System.out.println("El número debe ser positivo!");
         }
     }
 
