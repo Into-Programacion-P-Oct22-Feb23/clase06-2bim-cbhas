@@ -11,7 +11,8 @@ public class Principal {
         int valorB = OperadorUno.obtenerNumero(10);
         int suma = OperadorDos.obtenerSuma(valorA, valorB);
         int multiplicacion = OperadorTres.multiplicacion(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\nLa multiplicación de %d * %d es igual a: %d\n",
+        System.out.printf("La suma de %d + %d es igual a: %d\n"
+                + "La multiplicación de %d * %d es igual a: %d\n",
                 valorA,
                 valorB,
                 suma,
